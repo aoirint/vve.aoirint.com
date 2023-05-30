@@ -1,7 +1,7 @@
 version: '3.9'
 services:
   vvengine:
-    image: voicevox/voicevox_engine:cpu-ubuntu20.04-0.14.4
+    image: voicevox/voicevox_engine:cpu-ubuntu20.04-0.14.5
     restart: always
     ports:
       - '127.0.0.1:51021:50021'
